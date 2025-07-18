@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Modern Google Font for a clean look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+    <!-- Fun open-source emoji favicon (or add your own!) -->
+    <link rel="icon" href="https://em-content.zobj.net/source/microsoft-teams/363/robot_1f916.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#2dd4bf" />
+    <meta name="description" content="AI-powered cannabis product recommendation system by BakedBot" />
+    <title>🤖 BakedBot RAG Recommender</title>
+    <style>
+      html, body {
+        height: 100%;
+        background: linear-gradient(120deg, #f0fdfa 0%, #dbeafe 100%);
+        font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        /* Optional: smooth out the color banding */
+        -webkit-font-smoothing: antialiased;
+      }
+      #root {
+        min-height: 100vh;
+        /* Add a little vertical spacing if you want */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+      /* Optional: fun floating bot icon background */
+      body::before {
+        content: "🤖";
+        position: fixed;
+        left: 50vw;
+        top: 14vh;
+        font-size: 160px;
+        opacity: 0.06;
+        pointer-events: none;
+        filter: blur(1px);
+        z-index: 0;
+        animation: float 8s infinite alternate ease-in-out;
+      }
+      @keyframes float {
+        0%   { top: 10vh; opacity: 0.06; }
+        100% { top: 18vh; opacity: 0.11; }
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>You need to enable JavaScript to run this app.</strong>
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>
