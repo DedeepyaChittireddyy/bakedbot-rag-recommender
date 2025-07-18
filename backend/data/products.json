@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "name": "Relaxation Tea",
+      "type": "beverage",
+      "description": "A soothing herbal tea blend designed for relaxation and stress relief.",
+      "effects": ["relaxation", "stress relief"],
+      "ingredients": ["Chamomile", "Lavender"],
+      "price": 12.99
+    },
+    {
+      "id": 2,
+      "name": "Focus Mints",
+      "type": "edible",
+      "description": "Mints to boost focus and mental clarity.",
+      "effects": ["focus", "clarity"],
+      "ingredients": ["Peppermint", "Ginseng"],
+      "price": 8.99
+    },
+    {
+      "id": 3,
+      "name": "Energy Shot",
+      "type": "beverage",
+      "description": "A quick energy boost for busy days.",
+      "effects": ["energy", "focus"],
+      "ingredients": ["Green Tea", "Guarana"],
+      "price": 5.99
+    }
+  ]
+  
