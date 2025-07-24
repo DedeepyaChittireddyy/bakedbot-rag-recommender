@@ -37,7 +37,6 @@ This is my take-home challenge for BakedBot.ai, featuring a modern, production-i
    The API will be live at `http://localhost:8000`.
 
 3. **Endpoints you’ll use:**
-   - `GET /products` &nbsp;→ All products (for dropdown)
    - `GET /products/{id}` &nbsp;→ Full product details with RAG
    - `GET /effects` &nbsp;→ All unique effects
    - `GET /recommendations?effect=relaxation,focus` &nbsp;→ RAG-powered recs
